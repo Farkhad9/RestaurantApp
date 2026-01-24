@@ -3,44 +3,52 @@
   "WorkspaceRootPath": "C:\\Users\\farhadai\\source\\repos\\RestaurantApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4AEB174E-1EAE-486D-B7B3-73DE2D49B87B}|RestaurantApp.DAL\\RestaurantApp.DAL.csproj|c:\\users\\farhadai\\source\\repos\\restaurantapp\\restaurantapp.dal\\migrations\\20260124064336_inital.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4AEB174E-1EAE-486D-B7B3-73DE2D49B87B}|RestaurantApp.DAL\\RestaurantApp.DAL.csproj|solutionrelative:restaurantapp.dal\\migrations\\20260124064336_inital.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{74BCD3E1-A39A-1DE8-8C7D-5E20D9EB2B04}|RestaurantApp.BLL\\RestaurantApp.BLL.csproj|c:\\users\\farhadai\\source\\repos\\restaurantapp\\restaurantapp.bll\\restaurantapp.bll.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{74BCD3E1-A39A-1DE8-8C7D-5E20D9EB2B04}|RestaurantApp.BLL\\RestaurantApp.BLL.csproj|solutionrelative:restaurantapp.bll\\restaurantapp.bll.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4AEB174E-1EAE-486D-B7B3-73DE2D49B87B}|RestaurantApp.DAL\\RestaurantApp.DAL.csproj|c:\\users\\farhadai\\source\\repos\\restaurantapp\\restaurantapp.dal\\data\\configurations\\menuitemconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4AEB174E-1EAE-486D-B7B3-73DE2D49B87B}|RestaurantApp.DAL\\RestaurantApp.DAL.csproj|solutionrelative:restaurantapp.dal\\data\\configurations\\menuitemconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{90DA274F-AFEE-D221-DCBB-D83371FECA41}|RestaurantApp.DAL\\RestaurantApp.DAL.csproj|c:\\users\\farhadai\\source\\repos\\restaurantapp\\restaurantapp.dal\\data\\restaurantappdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90DA274F-AFEE-D221-DCBB-D83371FECA41}|RestaurantApp.DAL\\RestaurantApp.DAL.csproj|solutionrelative:restaurantapp.dal\\data\\restaurantappdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4AEB174E-1EAE-486D-B7B3-73DE2D49B87B}|RestaurantApp.DAL\\RestaurantApp.DAL.csproj|c:\\users\\farhadai\\source\\repos\\restaurantapp\\restaurantapp.dal\\data\\restaurantappdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4AEB174E-1EAE-486D-B7B3-73DE2D49B87B}|RestaurantApp.DAL\\RestaurantApp.DAL.csproj|solutionrelative:restaurantapp.dal\\data\\restaurantappdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{90DA274F-AFEE-D221-DCBB-D83371FECA41}|RestaurantApp.DAL\\RestaurantApp.DAL.csproj|c:\\users\\farhadai\\source\\repos\\restaurantapp\\restaurantapp.dal\\data\\configurations\\orderitemconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90DA274F-AFEE-D221-DCBB-D83371FECA41}|RestaurantApp.DAL\\RestaurantApp.DAL.csproj|solutionrelative:restaurantapp.dal\\data\\configurations\\orderitemconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4AEB174E-1EAE-486D-B7B3-73DE2D49B87B}|RestaurantApp.DAL\\RestaurantApp.DAL.csproj|c:\\users\\farhadai\\source\\repos\\restaurantapp\\restaurantapp.dal\\models\\menuitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4AEB174E-1EAE-486D-B7B3-73DE2D49B87B}|RestaurantApp.DAL\\RestaurantApp.DAL.csproj|solutionrelative:restaurantapp.dal\\models\\menuitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{90DA274F-AFEE-D221-DCBB-D83371FECA41}|RestaurantApp.DAL\\RestaurantApp.DAL.csproj|c:\\users\\farhadai\\source\\repos\\restaurantapp\\restaurantapp.dal\\data\\configurations\\orderconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90DA274F-AFEE-D221-DCBB-D83371FECA41}|RestaurantApp.DAL\\RestaurantApp.DAL.csproj|solutionrelative:restaurantapp.dal\\data\\configurations\\orderconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4AEB174E-1EAE-486D-B7B3-73DE2D49B87B}|RestaurantApp.DAL\\RestaurantApp.DAL.csproj|c:\\users\\farhadai\\source\\repos\\restaurantapp\\restaurantapp.dal\\models\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4AEB174E-1EAE-486D-B7B3-73DE2D49B87B}|RestaurantApp.DAL\\RestaurantApp.DAL.csproj|solutionrelative:restaurantapp.dal\\models\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{90DA274F-AFEE-D221-DCBB-D83371FECA41}|RestaurantApp.DAL\\RestaurantApp.DAL.csproj|c:\\users\\farhadai\\source\\repos\\restaurantapp\\restaurantapp.dal\\models\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90DA274F-AFEE-D221-DCBB-D83371FECA41}|RestaurantApp.DAL\\RestaurantApp.DAL.csproj|solutionrelative:restaurantapp.dal\\models\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4AEB174E-1EAE-486D-B7B3-73DE2D49B87B}|RestaurantApp.DAL\\RestaurantApp.DAL.csproj|c:\\users\\farhadai\\source\\repos\\restaurantapp\\restaurantapp.dal\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4AEB174E-1EAE-486D-B7B3-73DE2D49B87B}|RestaurantApp.DAL\\RestaurantApp.DAL.csproj|solutionrelative:restaurantapp.dal\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{90DA274F-AFEE-D221-DCBB-D83371FECA41}|RestaurantApp.DAL\\RestaurantApp.DAL.csproj|c:\\users\\farhadai\\source\\repos\\restaurantapp\\restaurantapp.dal\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90DA274F-AFEE-D221-DCBB-D83371FECA41}|RestaurantApp.DAL\\RestaurantApp.DAL.csproj|solutionrelative:restaurantapp.dal\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4AEB174E-1EAE-486D-B7B3-73DE2D49B87B}|RestaurantApp.DAL\\RestaurantApp.DAL.csproj|c:\\users\\farhadai\\source\\repos\\restaurantapp\\restaurantapp.dal\\models\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4AEB174E-1EAE-486D-B7B3-73DE2D49B87B}|RestaurantApp.DAL\\RestaurantApp.DAL.csproj|solutionrelative:restaurantapp.dal\\models\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{90DA274F-AFEE-D221-DCBB-D83371FECA41}|RestaurantApp.DAL\\RestaurantApp.DAL.csproj|c:\\users\\farhadai\\source\\repos\\restaurantapp\\restaurantapp.dal\\data\\configurations\\menuitemconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90DA274F-AFEE-D221-DCBB-D83371FECA41}|RestaurantApp.DAL\\RestaurantApp.DAL.csproj|solutionrelative:restaurantapp.dal\\data\\configurations\\menuitemconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{59D80E73-EB8A-44B7-838A-C18EBD76A13C}|RestaurantApp.BLL\\RestaurantApp.BLL.csproj|c:\\users\\farhadai\\source\\repos\\restaurantapp\\restaurantapp.bll\\restaurantapp.bll.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{59D80E73-EB8A-44B7-838A-C18EBD76A13C}|RestaurantApp.BLL\\RestaurantApp.BLL.csproj|solutionrelative:restaurantapp.bll\\restaurantapp.bll.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{90DA274F-AFEE-D221-DCBB-D83371FECA41}|RestaurantApp.DAL\\RestaurantApp.DAL.csproj|c:\\users\\farhadai\\source\\repos\\restaurantapp\\restaurantapp.dal\\models\\menuitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90DA274F-AFEE-D221-DCBB-D83371FECA41}|RestaurantApp.DAL\\RestaurantApp.DAL.csproj|solutionrelative:restaurantapp.dal\\models\\menuitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4AEB174E-1EAE-486D-B7B3-73DE2D49B87B}|RestaurantApp.DAL\\RestaurantApp.DAL.csproj|c:\\users\\farhadai\\source\\repos\\restaurantapp\\restaurantapp.dal\\restaurantapp.dal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{4AEB174E-1EAE-486D-B7B3-73DE2D49B87B}|RestaurantApp.DAL\\RestaurantApp.DAL.csproj|solutionrelative:restaurantapp.dal\\restaurantapp.dal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{90DA274F-AFEE-D221-DCBB-D83371FECA41}|RestaurantApp.DAL\\RestaurantApp.DAL.csproj|c:\\users\\farhadai\\source\\repos\\restaurantapp\\restaurantapp.dal\\models\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90DA274F-AFEE-D221-DCBB-D83371FECA41}|RestaurantApp.DAL\\RestaurantApp.DAL.csproj|solutionrelative:restaurantapp.dal\\models\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{92447F70-A5A2-46BE-9110-970A7DE14370}|RestaurantApp.PL\\RestaurantApp.PL.csproj|c:\\users\\farhadai\\source\\repos\\restaurantapp\\restaurantapp.pl\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{92447F70-A5A2-46BE-9110-970A7DE14370}|RestaurantApp.PL\\RestaurantApp.PL.csproj|solutionrelative:restaurantapp.pl\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{90DA274F-AFEE-D221-DCBB-D83371FECA41}|RestaurantApp.DAL\\RestaurantApp.DAL.csproj|c:\\users\\farhadai\\source\\repos\\restaurantapp\\restaurantapp.dal\\restaurantapp.dal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{90DA274F-AFEE-D221-DCBB-D83371FECA41}|RestaurantApp.DAL\\RestaurantApp.DAL.csproj|solutionrelative:restaurantapp.dal\\restaurantapp.dal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C07B293A-B5C7-5B28-823E-A974BA5F90D6}|RestaurantApp.PL\\RestaurantApp.PL.csproj|c:\\users\\farhadai\\source\\repos\\restaurantapp\\restaurantapp.pl\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C07B293A-B5C7-5B28-823E-A974BA5F90D6}|RestaurantApp.PL\\RestaurantApp.PL.csproj|solutionrelative:restaurantapp.pl\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90DA274F-AFEE-D221-DCBB-D83371FECA41}|RestaurantApp.DAL\\RestaurantApp.DAL.csproj|c:\\users\\farhadai\\source\\repos\\restaurantapp\\restaurantapp.dal\\migrations\\20260124064336_inital.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90DA274F-AFEE-D221-DCBB-D83371FECA41}|RestaurantApp.DAL\\RestaurantApp.DAL.csproj|solutionrelative:restaurantapp.dal\\migrations\\20260124064336_inital.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,45 +58,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "20260124064336_inital.cs",
-              "DocumentMoniker": "C:\\Users\\farhadai\\source\\repos\\RestaurantApp\\RestaurantApp.DAL\\Migrations\\20260124064336_inital.cs",
-              "RelativeDocumentMoniker": "RestaurantApp.DAL\\Migrations\\20260124064336_inital.cs",
-              "ToolTip": "C:\\Users\\farhadai\\source\\repos\\RestaurantApp\\RestaurantApp.DAL\\Migrations\\20260124064336_inital.cs",
-              "RelativeToolTip": "RestaurantApp.DAL\\Migrations\\20260124064336_inital.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "OrderItemConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\farhadai\\source\\repos\\RestaurantApp\\RestaurantApp.DAL\\Data\\Configurations\\OrderItemConfiguration.cs",
+              "RelativeDocumentMoniker": "RestaurantApp.DAL\\Data\\Configurations\\OrderItemConfiguration.cs",
+              "ToolTip": "C:\\Users\\farhadai\\source\\repos\\RestaurantApp\\RestaurantApp.DAL\\Data\\Configurations\\OrderItemConfiguration.cs",
+              "RelativeToolTip": "RestaurantApp.DAL\\Data\\Configurations\\OrderItemConfiguration.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAqwCUAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-24T06:43:45.331Z",
+              "WhenOpened": "2026-01-24T08:54:27.553Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "RestaurantApp.BLL",
-              "DocumentMoniker": "C:\\Users\\farhadai\\source\\repos\\RestaurantApp\\RestaurantApp.BLL\\RestaurantApp.BLL.csproj",
-              "RelativeDocumentMoniker": "RestaurantApp.BLL\\RestaurantApp.BLL.csproj",
-              "ToolTip": "C:\\Users\\farhadai\\source\\repos\\RestaurantApp\\RestaurantApp.BLL\\RestaurantApp.BLL.csproj",
-              "RelativeToolTip": "RestaurantApp.BLL\\RestaurantApp.BLL.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-01-24T06:22:51.419Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MenuItemConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\farhadai\\source\\repos\\RestaurantApp\\RestaurantApp.DAL\\Data\\Configurations\\MenuItemConfiguration.cs",
-              "RelativeDocumentMoniker": "RestaurantApp.DAL\\Data\\Configurations\\MenuItemConfiguration.cs",
-              "ToolTip": "C:\\Users\\farhadai\\source\\repos\\RestaurantApp\\RestaurantApp.DAL\\Data\\Configurations\\MenuItemConfiguration.cs",
-              "RelativeToolTip": "RestaurantApp.DAL\\Data\\Configurations\\MenuItemConfiguration.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAgwBYAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "OrderConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\farhadai\\source\\repos\\RestaurantApp\\RestaurantApp.DAL\\Data\\Configurations\\OrderConfiguration.cs",
+              "RelativeDocumentMoniker": "RestaurantApp.DAL\\Data\\Configurations\\OrderConfiguration.cs",
+              "ToolTip": "C:\\Users\\farhadai\\source\\repos\\RestaurantApp\\RestaurantApp.DAL\\Data\\Configurations\\OrderConfiguration.cs",
+              "RelativeToolTip": "RestaurantApp.DAL\\Data\\Configurations\\OrderConfiguration.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAqwBsAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-24T06:19:26.522Z",
+              "WhenOpened": "2026-01-24T08:40:37.731Z",
               "EditorCaption": ""
             },
             {
@@ -99,9 +94,35 @@
               "RelativeDocumentMoniker": "RestaurantApp.DAL\\Models\\Order.cs",
               "ToolTip": "C:\\Users\\farhadai\\source\\repos\\RestaurantApp\\RestaurantApp.DAL\\Models\\Order.cs",
               "RelativeToolTip": "RestaurantApp.DAL\\Models\\Order.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAIwBEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-24T06:16:11.885Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "BaseEntity.cs",
+              "DocumentMoniker": "C:\\Users\\farhadai\\source\\repos\\RestaurantApp\\RestaurantApp.DAL\\Models\\BaseEntity.cs",
+              "RelativeDocumentMoniker": "RestaurantApp.DAL\\Models\\BaseEntity.cs",
+              "ToolTip": "C:\\Users\\farhadai\\source\\repos\\RestaurantApp\\RestaurantApp.DAL\\Models\\BaseEntity.cs",
+              "RelativeToolTip": "RestaurantApp.DAL\\Models\\BaseEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-24T06:09:40.618Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RestaurantAppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\farhadai\\source\\repos\\RestaurantApp\\RestaurantApp.DAL\\Data\\RestaurantAppDbContext.cs",
+              "RelativeDocumentMoniker": "RestaurantApp.DAL\\Data\\RestaurantAppDbContext.cs",
+              "ToolTip": "C:\\Users\\farhadai\\source\\repos\\RestaurantApp\\RestaurantApp.DAL\\Data\\RestaurantAppDbContext.cs",
+              "RelativeToolTip": "RestaurantApp.DAL\\Data\\RestaurantAppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-24T06:03:40.345Z",
               "EditorCaption": ""
             },
             {
@@ -112,14 +133,14 @@
               "RelativeDocumentMoniker": "RestaurantApp.DAL\\Models\\OrderItem.cs",
               "ToolTip": "C:\\Users\\farhadai\\source\\repos\\RestaurantApp\\RestaurantApp.DAL\\Models\\OrderItem.cs",
               "RelativeToolTip": "RestaurantApp.DAL\\Models\\OrderItem.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-24T06:13:28.409Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "MenuItem.cs",
               "DocumentMoniker": "C:\\Users\\farhadai\\source\\repos\\RestaurantApp\\RestaurantApp.DAL\\Models\\MenuItem.cs",
               "RelativeDocumentMoniker": "RestaurantApp.DAL\\Models\\MenuItem.cs",
@@ -132,34 +153,21 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "BaseEntity.cs",
-              "DocumentMoniker": "C:\\Users\\farhadai\\source\\repos\\RestaurantApp\\RestaurantApp.DAL\\Models\\BaseEntity.cs",
-              "RelativeDocumentMoniker": "RestaurantApp.DAL\\Models\\BaseEntity.cs",
-              "ToolTip": "C:\\Users\\farhadai\\source\\repos\\RestaurantApp\\RestaurantApp.DAL\\Models\\BaseEntity.cs",
-              "RelativeToolTip": "RestaurantApp.DAL\\Models\\BaseEntity.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-24T06:09:40.618Z",
+              "DocumentIndex": 0,
+              "Title": "RestaurantApp.BLL.csproj",
+              "DocumentMoniker": "C:\\Users\\farhadai\\source\\repos\\RestaurantApp\\RestaurantApp.BLL\\RestaurantApp.BLL.csproj",
+              "RelativeDocumentMoniker": "RestaurantApp.BLL\\RestaurantApp.BLL.csproj",
+              "ToolTip": "C:\\Users\\farhadai\\source\\repos\\RestaurantApp\\RestaurantApp.BLL\\RestaurantApp.BLL.csproj",
+              "RelativeToolTip": "RestaurantApp.BLL\\RestaurantApp.BLL.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-01-24T06:22:51.419Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "RestaurantAppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\farhadai\\source\\repos\\RestaurantApp\\RestaurantApp.DAL\\Data\\RestaurantAppDbContext.cs",
-              "RelativeDocumentMoniker": "RestaurantApp.DAL\\Data\\RestaurantAppDbContext.cs",
-              "ToolTip": "C:\\Users\\farhadai\\source\\repos\\RestaurantApp\\RestaurantApp.DAL\\Data\\RestaurantAppDbContext.cs",
-              "RelativeToolTip": "RestaurantApp.DAL\\Data\\RestaurantAppDbContext.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAxwAcAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-24T06:03:40.345Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "RestaurantApp.DAL",
+              "DocumentIndex": 9,
+              "Title": "RestaurantApp.DAL.csproj",
               "DocumentMoniker": "C:\\Users\\farhadai\\source\\repos\\RestaurantApp\\RestaurantApp.DAL\\RestaurantApp.DAL.csproj",
               "RelativeDocumentMoniker": "RestaurantApp.DAL\\RestaurantApp.DAL.csproj",
               "ToolTip": "C:\\Users\\farhadai\\source\\repos\\RestaurantApp\\RestaurantApp.DAL\\RestaurantApp.DAL.csproj",
@@ -171,7 +179,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\farhadai\\source\\repos\\RestaurantApp\\RestaurantApp.PL\\Program.cs",
               "RelativeDocumentMoniker": "RestaurantApp.PL\\Program.cs",
@@ -180,6 +188,32 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-24T05:56:16.832Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MenuItemConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\farhadai\\source\\repos\\RestaurantApp\\RestaurantApp.DAL\\Data\\Configurations\\MenuItemConfiguration.cs",
+              "RelativeDocumentMoniker": "RestaurantApp.DAL\\Data\\Configurations\\MenuItemConfiguration.cs",
+              "ToolTip": "C:\\Users\\farhadai\\source\\repos\\RestaurantApp\\RestaurantApp.DAL\\Data\\Configurations\\MenuItemConfiguration.cs",
+              "RelativeToolTip": "RestaurantApp.DAL\\Data\\Configurations\\MenuItemConfiguration.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAAACEAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-24T06:19:26.522Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "20260124064336_inital.cs",
+              "DocumentMoniker": "C:\\Users\\farhadai\\source\\repos\\RestaurantApp\\RestaurantApp.DAL\\Migrations\\20260124064336_inital.cs",
+              "RelativeDocumentMoniker": "RestaurantApp.DAL\\Migrations\\20260124064336_inital.cs",
+              "ToolTip": "C:\\Users\\farhadai\\source\\repos\\RestaurantApp\\RestaurantApp.DAL\\Migrations\\20260124064336_inital.cs",
+              "RelativeToolTip": "RestaurantApp.DAL\\Migrations\\20260124064336_inital.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-24T06:43:45.331Z",
               "EditorCaption": ""
             }
           ]

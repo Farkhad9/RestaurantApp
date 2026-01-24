@@ -15,3 +15,4 @@ C:\Users\farhadai\source\repos\RestaurantApp\RestaurantApp.BLL\obj\Debug\net10.0
 C:\Users\farhadai\source\repos\RestaurantApp\RestaurantApp.BLL\obj\Debug\net10.0\RestaurantApp.BLL.pdb
 C:\Users\farhadai\source\repos\RestaurantApp\RestaurantApp.BLL\obj\Debug\net10.0\RestaurantApp.BLL.genruntimeconfig.cache
 C:\Users\farhadai\source\repos\RestaurantApp\RestaurantApp.BLL\obj\Debug\net10.0\ref\RestaurantApp.BLL.dll
+C:\Users\farhadai\source\repos\RestaurantApp\RestaurantApp.BLL\obj\Debug\net10.0\RestaurantApp.BLL.sourcelink.json

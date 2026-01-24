@@ -167,3 +167,4 @@ C:\Users\farhadai\source\repos\RestaurantApp\RestaurantApp.PL\obj\Debug\net10.0\
 C:\Users\farhadai\source\repos\RestaurantApp\RestaurantApp.PL\obj\Debug\net10.0\RestaurantApp.PL.pdb
 C:\Users\farhadai\source\repos\RestaurantApp\RestaurantApp.PL\obj\Debug\net10.0\RestaurantApp.PL.genruntimeconfig.cache
 C:\Users\farhadai\source\repos\RestaurantApp\RestaurantApp.PL\obj\Debug\net10.0\ref\RestaurantApp.PL.dll
+C:\Users\farhadai\source\repos\RestaurantApp\RestaurantApp.PL\obj\Debug\net10.0\RestaurantApp.PL.sourcelink.json

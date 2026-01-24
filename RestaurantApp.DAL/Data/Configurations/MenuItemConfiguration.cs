@@ -12,14 +12,22 @@ namespace RestaurantApp.DAL.Data.Configurations
         public void Configure(EntityTypeBuilder<MenuItem> builder)
         {
             builder.HasKey(mi => mi.Id);
+            
+            builder.ToTable("MenuItems");
+            builder.Property(x=>x.Number)
+                .IsRequired()
+                .HasMaxLength(100);
 
             builder.Property(mi => mi.Name)
                    .IsRequired()
                    .HasMaxLength(100);
-                  
+
+            builder.HasIndex(mi => mi.Name)
+            .IsUnique();
+
             builder.Property(mi => mi.Price)
                 .IsRequired()
-                .HasMaxLength(100);
+                .HasColumnType("decimal(18,2)");
 
             builder.Property(mi => mi.Category)
                    .IsRequired()

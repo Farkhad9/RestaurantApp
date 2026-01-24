@@ -12,3 +12,4 @@ C:\Users\farhadai\source\repos\RestaurantApp\RestaurantApp.DAL\obj\Debug\net10.0
 C:\Users\farhadai\source\repos\RestaurantApp\RestaurantApp.DAL\obj\Debug\net10.0\RestaurantApp.DAL.pdb
 C:\Users\farhadai\source\repos\RestaurantApp\RestaurantApp.DAL\obj\Debug\net10.0\RestaurantApp.DAL.genruntimeconfig.cache
 C:\Users\farhadai\source\repos\RestaurantApp\RestaurantApp.DAL\obj\Debug\net10.0\ref\RestaurantApp.DAL.dll
+C:\Users\farhadai\source\repos\RestaurantApp\RestaurantApp.DAL\obj\Debug\net10.0\RestaurantApp.DAL.sourcelink.json
