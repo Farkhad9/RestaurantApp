@@ -11,29 +11,30 @@ namespace RestaurantApp.DAL.Data.Configurations
     {
         public void Configure(EntityTypeBuilder<OrderItem> builder)
         {
-           builder .HasKey(oi => oi.Id);
+            builder.HasKey(oi => oi.Id);
 
+            builder.ToTable("OrderItems");
 
-           builder .Property(oi => oi.Count)
-                 .IsRequired();
-
-
-            builder.Property(oi=>oi.Number)
+            builder.Property(oi => oi.Number)
                 .IsRequired()
-                .HasMaxLength(100);
+                .HasMaxLength(50);
 
+            builder.Property(oi => oi.Count)
+                .IsRequired();
 
             builder.HasOne(oi => oi.MenuItem)
                 .WithMany()
-                .HasForeignKey("MenuItemId")
+                .HasForeignKey(oi => oi.MenuItemId)
                 .IsRequired()
                 .OnDelete(DeleteBehavior.Restrict);
 
-            builder.HasOne<Order>()
+            builder.HasOne(oi => oi.Order)
                 .WithMany(o => o.OrderItems)
                 .HasForeignKey(oi => oi.OrderId)
                 .IsRequired()
                 .OnDelete(DeleteBehavior.Cascade);
         }
     }
+
+
 }

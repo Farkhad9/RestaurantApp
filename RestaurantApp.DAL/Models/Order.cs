@@ -6,8 +6,9 @@ namespace RestaurantApp.DAL.Models
 {
     public class Order : BaseEntity
     {
+        public string Number { get; set; } = null!;  
         public List<OrderItem> OrderItems { get; set; }
-        public decimal TotalAmount { get; private set; }
+        public decimal TotalAmount { get; set; } 
         public DateTime Date { get; set; }
 
         public Order()

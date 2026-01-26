@@ -7,28 +7,29 @@ using System.Text;
 
 namespace RestaurantApp.DAL.Data.Configurations
 {
-    public class OrderConfiguration : IEntityTypeConfiguration<Order>
+    internal class OrderConfiguration : IEntityTypeConfiguration<Order>
     {
         public void Configure(EntityTypeBuilder<Order> builder)
         {
             builder.HasKey(o => o.Id);
 
-            builder.Property(x=> x.Number)
+            builder.ToTable("Orders");
+
+            builder.Property(o => o.Number)
                 .IsRequired()
-                .HasMaxLength(100);
+                .HasMaxLength(50);
 
             builder.Property(o => o.Date)
-                   .IsRequired();
-
+                .IsRequired();
 
             builder.Property(o => o.TotalAmount)
-                   .HasColumnType("decimal(18,2)")
-                   .IsRequired();
+                .HasColumnType("decimal(18,2)")
+                .IsRequired();
 
             builder.HasMany(o => o.OrderItems)
-                   .WithOne()
-                   .OnDelete(DeleteBehavior.Cascade);
-
+                .WithOne(oi => oi.Order)
+                .HasForeignKey(oi => oi.OrderId)
+                .OnDelete(DeleteBehavior.Cascade);
         }
     }
 }

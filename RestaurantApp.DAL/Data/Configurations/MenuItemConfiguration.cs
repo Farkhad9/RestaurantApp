@@ -12,38 +12,42 @@ namespace RestaurantApp.DAL.Data.Configurations
         public void Configure(EntityTypeBuilder<MenuItem> builder)
         {
             builder.HasKey(mi => mi.Id);
-            
+
             builder.ToTable("MenuItems");
-            builder.Property(x=>x.Number)
+
+            builder.Property(mi => mi.Number)
+                .IsRequired()
+                .HasMaxLength(50);
+
+            builder.Property(mi => mi.Name)
                 .IsRequired()
                 .HasMaxLength(100);
 
-            builder.Property(mi => mi.Name)
-                   .IsRequired()
-                   .HasMaxLength(100);
-
             builder.HasIndex(mi => mi.Name)
-            .IsUnique();
+                .IsUnique();
 
             builder.Property(mi => mi.Price)
                 .IsRequired()
                 .HasColumnType("decimal(18,2)");
 
             builder.Property(mi => mi.Category)
-                   .IsRequired()
-                   .HasMaxLength(50);
+                .IsRequired()
+                .HasMaxLength(50);
 
+            // Seed данные
             builder.HasData(
-                new MenuItem { Id = 1, Number = "001", Name = "Margherita Pizza", Price = 8.99m, Category = "Main Course" },
-                new MenuItem { Id = 2, Number = "002", Name = "Caesar Salad", Price = 5.49m, Category = "Appetizer" },
-                new MenuItem { Id = 3, Number = "003", Name = "Chocolate Lava Cake", Price = 6.99m, Category = "Dessert" },
-                new MenuItem { Id = 4, Number = "004", Name = "Spaghetti Carbonara", Price = 10.99m, Category = "Main Course" },
-                new MenuItem { Id = 5, Number = "005", Name = "Bruschetta", Price = 4.99m, Category = "Appetizer" },
-                new MenuItem { Id = 6, Number = "006", Name = "Tiramisu", Price = 5.99m, Category = "Dessert" },
-                new MenuItem { Id = 7, Number = "007", Name = "Grilled Salmon", Price = 12.99m, Category = "Main Course" }
-            ); 
-
-
+                new MenuItem { Id = 1, Number = "M001", Name = "Piti", Price = 12.50m, Category = "Sup" },
+                new MenuItem { Id = 2, Number = "M002", Name = "Dovga", Price = 8.00m, Category = "Sup" },
+                new MenuItem { Id = 3, Number = "M003", Name = "Kebab", Price = 18.00m, Category = "Ana yemek" },
+                new MenuItem { Id = 4, Number = "M004", Name = "Lyulya-kebab", Price = 15.00m, Category = "Ana yemek" },
+                new MenuItem { Id = 5, Number = "M005", Name = "Plov", Price = 14.00m, Category = "Ana yemek" },
+                new MenuItem { Id = 6, Number = "M006", Name = "Pakhlava", Price = 6.00m, Category = "Desert" },
+                new MenuItem { Id = 7, Number = "M007", Name = "Shekerbura", Price = 5.50m, Category = "Desert" },
+                new MenuItem { Id = 8, Number = "M008", Name = "Chay", Price = 2.00m, Category = "Icki" },
+                new MenuItem { Id = 9, Number = "M009", Name = "Ayran", Price = 3.00m, Category = "Icki" },
+                new MenuItem { Id = 10, Number = "M010", Name = "Sherbet", Price = 4.00m, Category = "Icki" }
+            );
         }
     }
+
 }
