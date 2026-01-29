@@ -6,7 +6,7 @@ using System.Text;
 
 namespace RestaurantApp.DAL.Interfaces
 {
-    internal interface IRepository<T> where T : BaseEntity
+    public interface IRepository<T> where T : BaseEntity
     {
         Task<T> GetByIdAsync(int id);
         Task<T> GetByIdAsync(int id, bool isTracking = false, params string[] includes);
