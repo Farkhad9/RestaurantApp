@@ -4,7 +4,7 @@ using System.Text;
 
 namespace RestaurantApp.BLL.Dtos.OrderDtos
 {
-    internal class OrderDetailReturnDto
+    public class OrderDetailReturnDto
     {
         public int Id { get; set; }
         public string Number { get; set; } = null!;

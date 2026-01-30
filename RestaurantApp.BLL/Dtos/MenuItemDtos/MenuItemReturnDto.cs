@@ -4,7 +4,7 @@ using System.Text;
 
 namespace RestaurantApp.BLL.Dtos.MenuItemDtos
 {
-    internal class MenuItemReturnDto
+    public class MenuItemReturnDto
     {
         public int Id { get; set; }
         public string Number { get; set; } = null!;

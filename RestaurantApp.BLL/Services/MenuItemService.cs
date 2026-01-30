@@ -8,10 +8,11 @@ using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Text;
+using RestaurantApp.BLL.Interfaces;
 
 namespace RestaurantApp.BLL.Services
 {
-    public class MenuItemService
+    public class MenuItemService : IMenuItemService
     {
         private readonly IRepository<MenuItem> _menuItemRepo;
         private readonly IMapper _mapper;
@@ -35,7 +36,6 @@ namespace RestaurantApp.BLL.Services
 
             var menuItem = _mapper.Map<MenuItem>(menuItemCreateDto);
             menuItem.Number = newNumber;
-
             await _menuItemRepo.AddAsync(menuItem);
             await _menuItemRepo.SaveChangeAsync();
         }
@@ -47,7 +47,6 @@ namespace RestaurantApp.BLL.Services
 
             if (menuItem == null)
                 throw new Exception($"MenuItem с номером '{number}' не найден");
-
             _menuItemRepo.Delete(menuItem);
             await _menuItemRepo.SaveChangeAsync();
         }
@@ -65,8 +64,49 @@ namespace RestaurantApp.BLL.Services
 
             menuItem.Name = menuItemUpdateDto.Name;
             menuItem.Price = menuItemUpdateDto.Price;
-
             await _menuItemRepo.SaveChangeAsync();
+        }
+
+        public async Task<List<MenuItemReturnDto>> GetAllMenuItemsAsync()
+        {
+            var menuItems = await _menuItemRepo.GetAll(isTracking: false, filter: null)
+                .ProjectTo<MenuItemReturnDto>(_mapper.ConfigurationProvider)
+                .ToListAsync();
+            return menuItems;
+        }
+
+        public async Task<List<MenuItemReturnDto>> GetMenuItemsByCategoryAsync(string category)
+        {
+            var menuItems = await _menuItemRepo.GetAll(isTracking: false, filter: m => m.Category.ToLower() == category.ToLower())
+                .ProjectTo<MenuItemReturnDto>(_mapper.ConfigurationProvider)
+                .ToListAsync();
+            return menuItems;
+        }
+
+        public async Task<List<MenuItemReturnDto>> GetMenuItemsByPriceRangeAsync(decimal minPrice, decimal maxPrice)
+        {
+            if (minPrice < 0 || maxPrice < 0)
+                throw new Exception("Цена не может быть отрицательной");
+
+            if (minPrice > maxPrice)
+                throw new Exception("Минимальная цена не может быть больше максимальной");
+
+            var menuItems = await _menuItemRepo.GetAll(isTracking: false, filter: m => m.Price >= minPrice && m.Price <= maxPrice)
+                .ProjectTo<MenuItemReturnDto>(_mapper.ConfigurationProvider)
+                .ToListAsync();
+            return menuItems;
+        }
+
+        public async Task<List<MenuItemReturnDto>> SearchMenuItemsAsync(string searchValue)
+        {
+            if (string.IsNullOrWhiteSpace(searchValue))
+                throw new Exception("Значение поиска не может быть пустым");
+
+            var menuItems = await _menuItemRepo.GetAll(isTracking: false, filter: m => m.Name.ToLower().Contains(searchValue.ToLower()))
+                .ProjectTo<MenuItemReturnDto>(_mapper.ConfigurationProvider)
+                .ToListAsync();
+            return menuItems;
         }
     }
 }
+
