@@ -1,5 +1,4 @@
-﻿using Azure;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 using RestaurantApp.DAL.Data;
 using RestaurantApp.DAL.Interfaces;
 using RestaurantApp.DAL.Models;
@@ -112,7 +111,5 @@ namespace RestaurantApp.DAL.Concretes
         {
             table.Update(entity);
         }
-
-
     }
 }

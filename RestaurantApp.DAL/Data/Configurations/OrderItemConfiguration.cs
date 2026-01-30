@@ -35,6 +35,4 @@ namespace RestaurantApp.DAL.Data.Configurations
                 .OnDelete(DeleteBehavior.Cascade);
         }
     }
-
-
 }

@@ -16,7 +16,5 @@ namespace RestaurantApp.DAL.Models
             OrderItems = new List<OrderItem>();
             Date = DateTime.Now;
         }
-
     }
-
 }

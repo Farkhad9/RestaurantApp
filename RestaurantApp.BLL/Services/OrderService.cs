@@ -85,7 +85,7 @@ namespace RestaurantApp.BLL.Services
 
         public async Task RemoveOrderAsync(string number)
         {
-            var order = await _orderRepo.GetAll(isTracking: false, filter: o => o.Number == number)
+            var order = await _orderRepo.GetAll(isTracking: true, filter: o => o.Number == number)
                 .FirstOrDefaultAsync();
 
             if (order == null)
@@ -94,6 +94,7 @@ namespace RestaurantApp.BLL.Services
             _orderRepo.Delete(order);
             await _orderRepo.SaveChangeAsync();
         }
+
 
         public async Task<List<OrderReturnDto>> GetAllOrdersAsync()
         {

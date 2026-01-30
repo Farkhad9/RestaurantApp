@@ -8,7 +8,7 @@ using System.Text;
 
 namespace RestaurantApp.BLL.Profiles
 {
-    internal class MapperProfile : Profile
+    public class MapperProfile : Profile
     {
         public MapperProfile()
         {
